@@ -34,6 +34,14 @@ Matrix Escape OS is a **frontend-only** portfolio-style web app that acts as an 
 **Product roadmap (not all implemented as paid flows in code):** auto-scheduling content, motivational dashboard, in-app digital sales, mentor avatar, **PDF export** for roadmaps, community, **14-day trial → $9/mo or $49/yr**, “Escape in 30 Days” bootcamp, affiliate links (Fiverr, Canva Pro, Gumroad, etc.).
 
 ---
+Install Nodes Modules (step by step) atfer install then appplication will be runable.
+Install Node.js LTS from https://nodejs.org/ (this gives you npm).
+Get the project — clone the repo or unzip it so the folder contains package.json at the top level.
+Open a terminal in that folder (project root — same place as package.json).
+Run npm install once. That downloads packages and creates node_modules locally (this folder is not in Git on purpose).
+Run npm run dev — or on Windows double-click RUN.bat (it can run npm install for you if node_modules is missing, then starts the server).
+Open http://localhost:5173 (or whatever URL the terminal prints).
+Important line: They should never expect node_modules inside the ZIP/Git repo — they always run npm install on their machine.
 
 ## Keyboard shortcuts
 
